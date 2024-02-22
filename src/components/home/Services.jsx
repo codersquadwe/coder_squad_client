@@ -14,6 +14,8 @@ import { CgWebsite } from 'react-icons/cg';
 import { ImMobile } from 'react-icons/im';
 import { IoCodeWorking } from 'react-icons/io5';
 import { HiOutlineComputerDesktop } from 'react-icons/hi';
+import { AiFillApi } from "react-icons/ai";
+
 const iconComponents = {
     HiOutlineComputerDesktop,
     IoCodeWorking,
@@ -26,6 +28,7 @@ const iconComponents = {
     CgWebsite,
     FaLightbulb,
     FaVideo,
+    AiFillApi
 };
 
 const Services = () => {

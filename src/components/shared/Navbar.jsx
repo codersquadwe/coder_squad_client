@@ -8,7 +8,7 @@ import { RxCross1 } from "react-icons/rx";
 const Navbar = () => {
    
     return (
-        <div className="max-w-[1320px] w-full mx-auto lg:md:px-8 px-6">
+        <div className="max-w-[1380px] w-full mx-auto lg:md:px-8 px-6">
             <div className="flex items-center justify-between bg-transparent py-4">
                 <div className="navbar-start">
                     <Link href="/">

@@ -20,14 +20,14 @@ const Home = () => {
       </Head>
       <Navbar/>
       <Banner />
-      <Certifications/>
+      {/* <Certifications/>
       <Services />
       <Technologies/>
       <FAQ />
       <Projects/>
       <Appointment />
-      <Testimonials />
-      <Footer/>
+      <Testimonials /> */}
+      {/* <Footer/> */}
     </div>
   );
 };

@@ -5,7 +5,7 @@ const Certifications = () => {
     return (
         <div data-aos="fade-up"
             data-aos-duration="2000"
-            className="max-w-[1380px] lg:md:px-8 px-4 mx-auto my-auto lg:md:mt-16 mt-0">
+            className="max-w-[1500px] lg:md:px-8 px-4 mx-auto my-auto lg:md:mt-16 mt-0">
             <div className="cert_bg flex lg:md:flex-row flex-col items-center justify-between rounded-xl lg:md:py-12 py-6 lg:md:px-6 px-2">
                 <div>
                     <Image

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import React from 'react';
 import Navbar from '../components/shared/Navbar';
 import Banner from '../components/home/Banner';
+import WeOffer from '../components/home/WeOffer';
 import Services from '../components/home/Services';
 import Projects from '../components/home/Projects';
 import Technologies from '../components/home/Technologies';
@@ -10,6 +11,10 @@ import Testimonials from '../components/home/Testimonials';
 import FAQ from '../components/home/FAQ';
 import Footer from '../components/shared/Footer';
 import Certifications from '../components/home/Certifications';
+import Migration from '../components/home/Migration';
+import RecentWorks from '../components/home/RecentWorks';
+import Partners from '../components/home/Partners';
+import HelpCenter from '../components/home/HelpCenter';
 
 const Home = () => {
   return (
@@ -21,6 +26,11 @@ const Home = () => {
       <Navbar/>
       <Banner />
     <Certifications/>
+    <WeOffer/>
+    <Migration/>
+    <RecentWorks/>
+    <Partners/>
+    <HelpCenter/>
       {/* 
       <Services />
       <Technologies/>

@@ -8,18 +8,24 @@ import { RxCross1 } from "react-icons/rx";
 const Navbar = () => {
    
     return (
-        <div className="max-w-[1320px] w-full mx-auto lg:md:px-8 px-6">
+        <div className="max-w-[1500px] w-full mx-auto lg:md:px-8 px-6">
             <div className="flex items-center justify-between bg-transparent py-4">
                 <div className="navbar-start">
                     <Link href="/">
-                        <Image src={logo} alt="logo" width={250} height={10} />
+                        <Image
+                            src="/logo.svg"
+                            width={150}
+                            height={10}
+                            alt="logo"
+                            className='h-[50px] object-cover mb-6'
+                        />
                     </Link>                                       
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-normal text-[18px]">
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
+                        <li><Link href="/shopify">Shopify</Link></li>
+                        <li><Link href="/services">Services</Link></li>
+                        <li><Link href="/contact">Contact Us</Link></li>
                     </ul>                     
                 </div>
                 <div className="navbar-end lg:md:hidden block text-end">
@@ -38,10 +44,10 @@ const Navbar = () => {
                             <RxCross1 className="text-white text-2xl hover:text-orange transition-colors duration-300" />
                         </label>
 
-                        <ul className="pt-24 menu p-4 w-80 min-h-full bg-[#051d42] text-[#fff] gap-y-7">
-                             <li><a href="#services">Services</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#contact">Contact Us</a></li>
+                            <ul className="pt-24 menu p-4 w-80 min-h-full bg-[#1A171A] text-[#fff] gap-y-7">
+                            <li><Link href="/shopify">Shopify</Link></li>
+                            <li><Link href="/services">Services</Link></li>
+                            <li><Link href="/contact">Contact Us</Link></li>
                         </ul>
                     </div>
                 </div>

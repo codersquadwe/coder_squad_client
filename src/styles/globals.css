@@ -26,7 +26,6 @@ swiper {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
 
   /* Center slide text vertically */
   display: flex;
@@ -49,7 +48,7 @@ swiper {
 }
 
 .cert_bg{
-   background: linear-gradient(217.93deg, #4100A3 10.94%, #0D52FF 100%);
+   background: linear-gradient(217.93deg, #a3ff3f10 .94%, #78970f 100%);
     box-shadow: 0px 23.0431px 38.4051px rgba(26, 32, 44, 0.08)
 }
 @media screen and (max-width: 768px) {

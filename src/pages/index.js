@@ -15,6 +15,8 @@ import Migration from '../components/home/Migration';
 import RecentWorks from '../components/home/RecentWorks';
 import Partners from '../components/home/Partners';
 import HelpCenter from '../components/home/HelpCenter';
+import Reviews from '../components/home/Reviews';
+import Mern from '../components/home/Mern';
 
 const Home = () => {
   return (
@@ -28,9 +30,11 @@ const Home = () => {
     <Certifications/>
     <WeOffer/>
     <Migration/>
+      <Mern/>
     <RecentWorks/>
     <Partners/>
-    <HelpCenter/>
+      <Reviews/>
+      <HelpCenter />
       {/* 
       <Services />
       <Technologies/>
@@ -38,7 +42,7 @@ const Home = () => {
       <Projects/>
       <Appointment />
       <Testimonials /> */}
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 };

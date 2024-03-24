@@ -17,19 +17,19 @@ const Mern = () => {
                 </div>
                 <div>
                     <h2 className="lg:md:text-5xl text-2xl font-bold text-[#eee]">Upscale your eCommerce with Mern Stack Technology</h2>
-                    <p className="my-10 lg:md:text-[18px] text-[16px]  text-[#B1B5C3]">Moving your store to a different eCommerce platform? Let us help you with data migration, customizations, API integrations, and much more.</p>
+                    <p className="my-10 lg:md:text-[18px] text-[16px]  text-[#B1B5C3]">Elevate your eCommerce game with MERN Stack Technology. This cutting-edge combination of MongoDB, Express.js, React, and Node.js offers seamless integration, scalability, and rapid development, empowering businesses to create dynamic and user-friendly online platforms.</p>
                     <ul className="grid gap-y-4">
                         <li className="flex items-center gap-x-4">
                             <FaCheck className="text-[#27D294] text-xl" />
-                            <span className=" text-[#B1B5C3] lg:md:text-[18px] text-[16px] ">Turn-key migration from Magento, Shopify, +5 other platforms</span>
+                            <span className=" text-[#B1B5C3] lg:md:text-[18px] text-[16px] ">Seamless Integration</span>
                         </li>
                         <li className="flex items-center gap-x-4">
                             <FaCheck className="text-[#27D294] text-xl" />
-                            <span className=" text-[#B1B5C3] lg:md:text-[18px] text-[16px] ">Storefront Customizations</span>
+                            <span className=" text-[#B1B5C3] lg:md:text-[18px] text-[16px] ">Scalability and Flexibility</span>
                         </li>
                         <li className="flex items-center gap-x-4">
                             <FaCheck className="text-[#27D294] text-xl" />
-                            <span className=" text-[#B1B5C3] lg:md:text-[18px] text-[16px] ">API & Enterprise Integrations</span>
+                            <span className=" text-[#B1B5C3] lg:md:text-[18px] text-[16px] ">Rapid Development</span>
                         </li>
                     </ul>
                 </div>

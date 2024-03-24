@@ -7,7 +7,7 @@ import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="lg:md:mt-20 mt-16 max-w-[1500px] w-full mx-auto lg:md:px-6 px-4">
-      <div className='grid lg:md:grid-cols-4 lg:md:gap-y-0 gap-y-6 grid-cols-1 py-10'>
+      <div className='grid lg:md:grid-cols-4 lg:md:gap-y-0 gap-y-10 grid-cols-1 py-10'>
         <div>
           <Image
             src="/logo.svg"

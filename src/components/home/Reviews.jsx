@@ -41,12 +41,13 @@ const Reviews = () => {
     useEffect(() => {
         // Adjust slidesPerView based on screen size
         const handleResize = () => {
-            if (window.innerWidth < 640) {
+            if (window.innerWidth < 720) {
                 setSlidesPerView(1);
             } else {
                 setSlidesPerView(3);
             }
         };
+
         handleResize(); // Call on component mount
         window.addEventListener('resize', handleResize); // Add event listener for window resize
         return () => window.removeEventListener('resize', handleResize); // Remove event listener on component unmount

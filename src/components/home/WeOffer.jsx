@@ -9,7 +9,7 @@ const WeOffer = () => {
                 <h2 className="text-[#FCFCFD] text-center lg:md:text-5xl text-3xl font-semibold leading-[48px] mb-2">Don’t sell your brand short. We can help.</h2>
                 <p className="text-[#B1B5C3] text-center lg:md:text-[18px] text-[16px]">From global Enterprises to local brands, we are helping them build, scale, and grow their eCommerce sales.</p>
 
-                <div className="lg:md:mt-28 grid lg:md:grid-cols-2 items-center justify-between w-full gap-x-16 lg:md:mt-0 mt-6">
+                <div className="lg:md:mt-28 grid lg:md:grid-cols-2 items-center justify-between w-full gap-x-16 mt-6">
                     <div className="flex items-center gap-x-8">
                         <div className="">
                             <Image
@@ -45,8 +45,9 @@ const WeOffer = () => {
                     </div>
 
                     <div>
-                        <h2 className="lg:md:text-5xl text-2xl font-bold text-[#eee]">Full-stack, full-service BigCommerce agency</h2>
-                        <p className="my-10 lg:md:text-[18px] text-[16px]  text-[#B1B5C3]">Ready to kickstart your online store? Let our top-ranked team create a remarkable Shopify store that enhances conversion rates and delights customers. Offering end-to-end services, unparalleled quality, and budget-friendly prices.</p>
+                        <h2 className="lg:md:text-5xl text-2xl font-bold text-[#eee]">Full-stack, full-service eCommerce agency</h2>
+                        <p className="my-10 lg:md:text-[18px] text-[16px]  text-[#B1B5C3]">
+                            Are you prepared to launch your online store? Allow our highly-rated team to craft an exceptional Shopify store that boosts conversion rates and delights customers. With comprehensive services, unmatched quality, and cost-effective rates.</p>
                         <ul className="grid gap-y-4">
                             <li className="flex items-center gap-x-4">
                                 <FaCheck className="text-[#27D294] text-xl" />

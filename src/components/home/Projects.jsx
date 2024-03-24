@@ -8,6 +8,9 @@ import { BsArrowRight } from "react-icons/bs";
 const Projects = () => {
     const [projects, setProjects] = useState([])
     const [loading, setLoading] = useState(false)
+    const [activeIndex, setActiveIndex] = useState(0);
+    const [slidesPerView, setSlidesPerView] = useState(3);
+
     useEffect(() => {
         const getServices = async () => {
             try {
@@ -25,7 +28,25 @@ const Projects = () => {
         }
         getServices()
     }, [])
-    console.log(projects)
+
+     const handleSlideChange = (swiper) => {
+        setActiveIndex(swiper.activeIndex); // Update active index on slide change
+    }
+
+    useEffect(() => {
+        // Adjust slidesPerView based on screen size
+        const handleResize = () => {
+            if (window.innerWidth < 640) {
+                setSlidesPerView(1);
+            } else {
+                setSlidesPerView(3);
+            }
+        };
+        handleResize(); // Call on component mount
+        window.addEventListener('resize', handleResize); // Add event listener for window resize
+        return () => window.removeEventListener('resize', handleResize); // Remove event listener on component unmount
+    }, []);
+
     return (
         <div
         id="projects"

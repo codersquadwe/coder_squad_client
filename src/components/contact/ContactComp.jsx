@@ -3,7 +3,8 @@ import { FaRegEnvelope } from "react-icons/fa";
 import Link from 'next/link';
 import { useForm } from "react-hook-form"
 import axios from 'axios';
-const HelpCenter = () => {
+
+const ContactComp = () => {
     const {
         register,
         handleSubmit,
@@ -22,7 +23,7 @@ const HelpCenter = () => {
         }
     }
     return (
-        <div className="bg-[#23262F] lg:md:py-[80px]  lg:md:mt-[15rem] mt-20">
+        <div className="bg-[#23262F] lg:md:py-[80px]">
             <div className="max-w-[1500px] lg:md:px-8 px-4 mx-auto my-auto lg:md:py-0 py-8">
                 <div className="grid lg:md:grid-cols-2 items-center justify-between">
                     <div className="lg:md:mb-0 mb-6">
@@ -87,4 +88,4 @@ const HelpCenter = () => {
     );
 };
 
-export default HelpCenter;
+export default ContactComp;
